@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  background: #272727;
+  color: #fff;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.header {
+  font-family: 'Courier New', monospace;
+  font-size: 30px;
+  text-align: center;
+  padding: 3rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.header h2 {
+  margin-bottom: 2rem;
+}
+
+#instructions {
+  border: 2px solid #fff;
+  background: #353935;
+  color: #fff;
+  border-radius: 0;
+  padding: 10px 20px;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+
+#instructions:hover {
+  background-color: #fff;
+  color: #28282B;
+}
+
+#instructions:active {
+  transform: scale(0.95);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.section {
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.player {
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 18px;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.erro {
+  font-weight: 600;
+  color: #fff;
+  background: #28282B;
+  padding: 10px;
+  margin-top: 1rem;
+  letter-spacing: 1px;
+}
+
+#info1,
+#info2 {
+  margin-top: 1rem;
+  letter-spacing: 1px;
+  line-height: 1.8;
+}
+
+.submit {
+  border: 2px solid #fff;
+  background: #28282B;
+  color: #fff;
+  border-radius: 0;
+  padding: 10px 30px;
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  margin-top: 1rem;
+}
+
+.submit:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.submit:active {
+  transform: scale(0.95);
+}
+
+.submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.submit:disabled:hover {
+  background: #28282B;
+  color: #fff;
+}
+
+#box {
+  padding: 1rem;
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  background: #151515;
+  color: #fff;
+  border: 2px solid #fff;
+  letter-spacing: 1px;
+  margin: 0.5rem;
+  display: block;
+  width: calc(100% - 1rem);
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#box::placeholder {
+  color: #888;
+}
+
+#box:focus {
+  outline: none;
+  border: 2px solid #fff;
+  background: #28282B;
+}
+
+#icon {
+  width: 15%;
+  height: auto;
+  margin: 1rem;
+  filter: brightness(0) invert(1);
+}
+
+#reveal {
+  border: 2px solid #fff;
+  background: #353935;
+  color: #fff;
+  border-radius: 0;
+  padding: 15px 40px;
+  font-family: 'Courier New', monospace;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  margin-top: 2rem;
+}
+
+#reveal:hover {
+  background-color: #fff;
+  color: #28282B;
+}
+
+#reveal:active {
+  transform: scale(0.95);
+}
+
+#reveal:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+#reveal:disabled:hover {
+  background: #353935;
+  color: #fff;
+}
+
+#Movie {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 600px;
+  letter-spacing: 2px;
+  line-height: 1.8;
+}
+
+form {
+  border: 3px solid #fff;
+  background-color: #28282B;
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 500px;
+}
+
+/* Scanline effect */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.15),
+    rgba(0, 0, 0, 0.15) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+  pointer-events: none;
+  z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  .header {
+    font-size: 2rem;
+    padding: 2rem;
+  }
+  
+  .header h2 {
+    font-size: 2rem;
+  }
+
+  form {
+    padding: 1.5rem;
+  }
+
+  #box {
+    font-size: 14px;
+  }
+
+  #reveal {
+    font-size: 16px;
+    padding: 12px 30px;
+  }
+}

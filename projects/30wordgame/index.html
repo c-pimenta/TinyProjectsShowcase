@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer></script>
+  <title>30 Word Game</title>
+</head>
+<body>
+  <header>
+    <h2 class="title"> 30 Words Story </h2>
+  </header>
+  <main>
+    <div >
+      <button id="Instructions"><h3>Instructions</h3></button>
+    </div>
+    <p id="counter"></p>
+    <div class="formContainer">
+    <form  id="form" action="word">
+      <input type="text" name="box1" id="box" placeholder="Write one word here">
+      <input type="text" name="box2" id="box" placeholder="Write one word here">
+      <input type="text" name="box3" id="box" placeholder="Write one word here">
+      <div>
+        <button class="submit" type="submit">Submit</button>  
+        <p id="errorMessage"></p>   
+      </div>
+    
+    </form> 
+    
+    </div>
+    <div>
+    <h3 id="passButton" ></h3>  
+    </div>
+    <div>
+     <h5 id="revealButton"></h5> 
+    </div>
+    <p id="story"></p>
+
+    
+  </main>
+
+</body>
+</html>

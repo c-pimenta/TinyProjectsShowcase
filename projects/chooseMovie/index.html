@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Judge Game</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <h2>What's today's movie?</h2>
+  <button type="button" id="instructions">How does this works</button>
+  </header>
+ <main class="container">
+  <div class="section">
+    <form id="form1" action="Person1">
+    <p class="player">Player 1 Movie choices:</p>
+    <input type="text" name="choice1" id="box" placeholder="Movie choice nº1">
+    <input type="text" name="choice2" id="box" placeholder="Movie choice nº2">
+    <input type="text" name="choice3" id="box" placeholder="Movie choice nº3">
+    <input type="submit" value="submit" class="submit" id="submit1">
+    <p class="erro" id="error1"></p>
+    <p id="info1"></p>
+  </form> 
+  </div>
+  <div class="section">
+    <form id="form2" action="Person2">
+    <p class="player"> Player 2 Movie choices:</p>
+    <input type="text" name="choice1" id="box" placeholder="Movie choice nº1">
+    <input type="text" name="choice2" id="box" placeholder="Movie choice nº2">
+    <input type="text" name="choice3" id="box" placeholder="Movie choice nº3">
+    <input type="submit" value="submit" class="submit" id="submit2">
+    <p class="erro" id="error2"></p>
+    <p id="info2"></p>
+  </form> 
+  </div>
+<div class="section">
+  <button id="reveal">MOVIE REVEAL</button>
+ <p id="Movie"></p> 
+ <img src="popcorn-svgrepo-com-2.svg" alt="popcorn" id="icon" >
+</div>
+ </main>
+  
+  
+
+ 
+
+</body>
+</html>
