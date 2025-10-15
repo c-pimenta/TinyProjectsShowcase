@@ -1,0 +1,37 @@
+ `<p>Confused but intrigued, <input type="text" placeholder="Name" class="userInput"> agreed. The <input type="text" placeholder="Animal" class="userInput"> led them to a 
+  <input type="text" placeholder="Adjective" class="userInput"> cave, where a <input type="text" placeholder="Adjective" class="userInput"> wizard sat on a 
+  <input type="text" placeholder="Object" class="userInput">, eating <input type="text" placeholder="Food" class="userInput">. 
+  "To pass, you must answer my riddle," the wizard announced, wiping <input type="text" placeholder="Liquid" class="userInput"> off their chin. 
+  "What has <input type="text" placeholder="Number" class="userInput"> legs, loves <input type="text" placeholder="Activity" class="userInput">, and smells like 
+  <input type="text" placeholder="Scent" class="userInput">?"</p>`,
+
+  `<p>Thinking quickly, <input type="text" placeholder="Name" class="userInput"> blurted out, "<input type="text" placeholder="Silly Phrase" class="userInput">!" 
+  The wizard's eyes widened. "That is… absolutely <input type="text" placeholder="Adjective" class="userInput">!" he said. Instead of casting a spell, 
+  he burst into <input type="text" placeholder="Emotion" class="userInput">, laughing so hard that he fell off his 
+  <input type="text" placeholder="Object" class="userInput"> and accidentally knocked over a 
+  <input type="text" placeholder="Breakable Object" class="userInput">.</p>`,
+
+  `<p>Suddenly, the ground rumbled, and a <input type="text" placeholder="Adjective" class="userInput"> <input type="text" placeholder="Creature" class="userInput"> 
+  emerged, demanding a <input type="text" placeholder="Noun" class="userInput"> in exchange for their safety. Panicked, <input type="text" placeholder="Name" class="userInput"> 
+  reached into their pocket and pulled out a <input type="text" placeholder="Random Small Object" class="userInput">, hoping it would suffice. 
+  The creature examined it closely, then nodded. "This will do… for now," it said, disappearing into a puff of <input type="text" placeholder="Substance" class="userInput">.</p>`,
+
+  `<p>Relieved but still nervous, <input type="text" placeholder="Name" class="userInput"> continued forward until they found a <input type="text" placeholder="Adjective" class="userInput"> 
+  <input type="text" placeholder="Vehicle" class="userInput"> with a <input type="text" placeholder="Adjective" class="userInput"> note on it. 
+  It read: "Beware the <input type="text" placeholder="Plural Noun" class="userInput"> at <input type="text" placeholder="Time of Day" class="userInput">." 
+  Before they could process the warning, a <input type="text" placeholder="Adjective" class="userInput"> gust of wind blew the note away.</p>`,
+
+  `<p>Determined to finish their adventure, <input type="text" placeholder="Name" class="userInput"> climbed into the <input type="text" placeholder="Vehicle" class="userInput"> 
+  and pressed a <input type="text" placeholder="Button Color" class="userInput"> button. Suddenly, the entire <input type="text" placeholder="Place" class="userInput"> began to spin, 
+  and before they knew it, they were transported to a <input type="text" placeholder="Adjective" class="userInput"> dimension filled with 
+  <input type="text" placeholder="Plural Noun" class="userInput"> and floating <input type="text" placeholder="Plural Objects" class="userInput">. 
+  "What have I gotten myself into?" they muttered.</p>`,
+
+  `<p>Just then, a <input type="text" placeholder="Adjective" class="userInput"> voice whispered, "<input type="text" placeholder="Creepy Phrase" class="userInput">." 
+  Turning around, <input type="text" placeholder="Name" class="userInput"> saw their reflection in a <input type="text" placeholder="Shiny Object" class="userInput">, 
+  except... their reflection <input type="text" placeholder="Verb (Past Tense)" class="userInput"> first. 
+  "This is getting <input type="text" placeholder="Adjective" class="userInput">," they said, taking a deep breath.</p>`,
+
+  `<p>Would <input type="text" placeholder="Name" class="userInput"> ever escape? Would they find out who wrote the note? 
+  And most importantly, why did that <input type="text" placeholder="Animal" class="userInput"> want to <input type="text" placeholder="Verb" class="userInput"> so badly? 
+  Only time—and a lot more <input type="text" placeholder="Plural Noun" class="userInput">—would tell!</p>`,

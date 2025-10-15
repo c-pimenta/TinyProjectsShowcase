@@ -1,0 +1,201 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Courier New', monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 18px;
+      background: #272727;
+      color: #fff;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 30px;
+      background-color: #fff;
+      color: #272727;
+      padding: 3rem 8rem;
+      margin: 1rem;
+      border: 3px solid #fff;
+      position: relative;
+      animation-name: slide;
+      animation-duration: 4s;
+      animation-fill-mode: forwards;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    
+      padding: 20px;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      width: 80%;
+      position: relative;
+    }
+
+    #btn {
+      font-size: 18px;
+      border: 2px solid #fff;
+      cursor: pointer;
+      font-family: 'Courier New', monospace;
+      background-color: #272727;
+      color: #fff;
+      padding: 10px 40px;
+      margin-top: 2rem;
+      animation: appear 4s ease-in-out forwards;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      transition: all 0.2s;
+    }
+
+    #start {
+      font-size: 18px;
+      border: 2px solid #fff;
+      cursor: pointer;
+      font-family: 'Courier New', monospace;
+      background-color: #272727;
+      color: #fff;
+      padding: 10px 40px;
+      margin: 2rem;
+      position: relative;
+      animation: appear 4s ease-in-out forwards;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      transition: all 0.2s;
+    }
+
+    @keyframes slide {
+      from {
+        top: 0px;
+      }
+      to {
+        top: 4rem;
+        background-color: #353935;
+        color: #fff;
+      }
+    }
+
+    @keyframes appear {
+      from {
+        opacity: 0;
+        top: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+        top: 3rem;
+      }
+    }
+
+    #start:hover,
+    #btn:hover {
+      background-color: #fff;
+      color: #353935;
+    }
+
+    #start:active,
+    #btn:active {
+      transform: scale(0.95);
+    }
+
+    #container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      width: 80%;
+      position: relative;
+    }
+    #titleContainer{
+      text-align: center;
+      margin: 1rem;
+      padding: 1rem;
+    }
+
+    #story {
+      text-align: justify;
+      padding: 1rem;
+      display: flex;
+    }
+
+    h3 {
+      font-size: 24px;
+      margin: 2rem;
+      letter-spacing: 2px;
+    }
+
+    input {
+      font-family: 'Courier New', monospace;
+      font-size: 18px;
+      background: #272727;
+      color: #fff;
+      border: 1px solid #fff;
+      padding: 5px 10px;
+      margin: 0 5px;
+    }
+
+    input::placeholder {
+      color: #888;
+    }
+
+    input:focus {
+      outline: none;
+      border: 2px solid #fff;
+      background: #111;
+    }
+
+    p {
+      line-height: 2;
+      text-align: justify;
+      margin: 1rem 0;
+    }
+
+    /* Scanline effect */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: repeating-linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.15),
+        rgba(0, 0, 0, 0.15) 1px,
+        transparent 1px,
+        transparent 2px
+      );
+      pointer-events: none;
+      z-index: 1000;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 24px;
+        padding: 2rem 4rem;
+      }
+
+      #container,
+      form {
+        width: 95%;
+      }
+
+      input {
+        font-size: 16px;
+      }
+    }
