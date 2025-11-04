@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic tac Toe</title>
+  </head>
+  <body>
+    <h1 class="title">Tic Tac Toe</h1>
+    <main>
+      <button id="startButton">Play</button>
+      <div id="gameContainer">
+        <div id="playerInfo"></div>
+        <div id="boardContainer"></div>
+        <button id="resetButton">New Game</button>
+      </div>
+    </main>
+
+    <div id="setupModal" class="modal">
+      <div class="modal-content">
+        <h2>Player Setup</h2>
+        <input type="text" id="player1Input" placeholder="Player 1 Name" />
+        <input type="text" id="player2Input" placeholder="Player 2 Name" />
+        <button id="continueButton">Continue</button>
+      </div>
+    </div>
+
+    <div id="assetModal" class="modal">
+      <div class="modal-content">
+        <h2 id="assetQuestion"></h2>
+        <button class="assetChoice" data-asset="X">X</button>
+        <button class="assetChoice" data-asset="O">O</button>
+      </div>
+    </div>
+
+    <div id="resultModal" class="modal">
+      <div class="modal-content">
+        <h2 id="resultMessage"></h2>
+        <button id="playAgainButton">Play Again</button>
+      </div>
+    </div>
+  </body>
+</html>
